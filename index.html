@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi tacita</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Inter&family=Montserrat+Alternates&family=Montserrat:ital,wght@0,400;0,800;1,600&family=Nanum+Gothic&family=Roboto:ital,wght@0,400;1,300&family=Saira+Semi+Condensed:wght@400;600&display=swap');
+    </style>
+</head>   
+<body>
+<!--Encabezado-->
+    <nav class="nav">
+        <div class="nav-contenedor">
+            <h1 class="nav-log">Mi tacita</h1>
+            <label for="menu" class="nav-label">
+                <img style="color: #fff;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAGZJREFUSEvtlrENACAMw8pnnMZpfAYTC1W3CDOEA2JhUpUW0GkQNwx+Zt6qj+ohdp7yKtVLDE6c78DiC+c4t/o46WLX8877rlzYOGGqxU/scYryB4KVCwNja9GtlhvwWpQrrQIx1Rt3TwofeC3yFwAAAABJRU5ErkJggg=="/>
+            </label>
+            <input type="checkbox" id="menu" class="nav-input">
+
+            <div class="nav-menu">
+                <a href="#" class="nav-item">Inicio</a>
+                <a href="#sobre-mi" class="nav-item">Sobre mi</a>
+                <a href="#taller" class="nav-item">Taller</a>  
+                <a href="#contacto" class="nav-item">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
+<!--Seccion-->
+    <section class="banner-contenedor">
+        <img src="img\banner.png" alt="banner">
+        <div class="banner-contenido">
+            <h3>Hola soy Gri</h3>
+            <p>Mamá, estudiante y artesana <br>
+            Futura ceramista industrial.
+            </p>
+        <button class="hablemos"><a href="#contacto">¡Hablemos!</a></button>
+        </div>
+    </section>
+<!--Sobre mi-->
+    <section id="sobre-mi">
+        <img src="img\banner.png" alt="sobre mi">
+        <div class="banner-sobremi">
+            <h2>Sobre mi</h2>
+            <p> Soy mamá de dos varones, actualmente me encuentro estudiando <br>
+                artes visuales en la UNA y tambien soy artesana tengo mi propio <br>
+                taller de ceramica donde doy clases y hago mis artesanias.
+            </p>
+        </div>
+    </section>
+
+<!--Taller-->
+   <section id="taller">
+    <div class= "taller-contenedor">
+        <div class="taller-info">
+            <h3>Taller <span></span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur</p>
+        </div>
+        <div class="conocimientos">
+            <div class="subconocimientos">
+                <h4>Foto 1</h4>
+                <img src="img\banner.png" alt="proyecto 1" >
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+            <div class="subconocimientos">
+                <h4>Foto 2</h4>
+                <img src="img\banner.png" alt="proyecto 2">
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+            <div class="subconocimientos">
+                <h4>Foto 3</h4>
+                <img src="img\banner.png" alt="proyecto 3">
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+        </div>
+   </section>
+
+<!--Contacto-->
+    <section id="contacto">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52669.21305760772!2d-58.73181695558546!3d-34.40577297746548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca19b02356b39%3A0xce459fa6c72e54ab!2sBenavidez%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1695331839150!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="contenido-contacto">
+            <form action="">
+                <h2 class="titulo-seccion">Contactame <br> <span class="resaltado subir"> ahora mismo</span></h2>
+                <p>Y comentame tu proyecto</p>
+                 <input type="text" placeholder="Nombre">
+                <input type="text" placeholder="Email">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                <button class="btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+<!--Footer-->
+    <footer>
+        <div class="contenido">
+            <div class="col">
+                <h3>Mi tacita</h3>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#sobre-mi">Sobre mi</a></li>
+                    <li><a href="#taller">Taller</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="col3">
+                <h3 class="titulo-footer">Subscribite para recibir <br> para nuevos talleres</h3>
+                <input type="text" placeholder="mail">
+                <div class="redes">
+                    <p>Seguime!</p>
+                    <a href="#"><i class="fi fi-brands-facebook"></i></a>
+                    <a href="#"><i class="fi fi-brands-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
