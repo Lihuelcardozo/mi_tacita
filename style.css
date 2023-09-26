@@ -382,8 +382,17 @@ footer{
     }
 
     /*Sobre mi*/
+    #sobre-mi{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+    }
+
     #sobre-mi img {
+        padding-top: 15px;
         width: 200px;
+        height: 200px;
     }
     .banner-sobremi h2 {
         font-size: 30px;
@@ -436,7 +445,8 @@ footer{
     }
     .btn-primary {
         font-size: 15px;
-    
     }
-    
+    .btn-primary:hover{
+        font-size: 15px;
+    }
 }
