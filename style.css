@@ -348,7 +348,7 @@ footer{
         left: 0;
         display: flex;
         clip-path: circle(0 at center);
-        transition: clip-path 1s ease-in-out;
+        transition: clip-path 0.3s ease-in-out;
         justify-content: flex-start;
         flex-direction: column;
         padding-top: 25px;
